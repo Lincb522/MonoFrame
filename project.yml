@@ -1,0 +1,203 @@
+name: Mono
+options:
+  bundleIdPrefix: app.mono
+  deploymentTarget:
+    iOS: "26.0"
+  createIntermediateGroups: true
+settings:
+  base:
+    SWIFT_VERSION: "5.0"
+    SWIFT_STRICT_CONCURRENCY: minimal
+    MARKETING_VERSION: "1.2"
+    CURRENT_PROJECT_VERSION: "34"
+    CODE_SIGN_STYLE: Automatic
+    DEVELOPMENT_TEAM: 7VJKFX4HF8
+    GENERATE_INFOPLIST_FILE: NO
+    LM_FILTER_WARNINGS: YES
+packages:
+  FFmpegSwiftSDK:
+    path: Packages/FFmpegSwiftSDK
+schemes:
+  Mono:
+    build:
+      targets:
+        Mono: all
+    run:
+      config: Debug
+      executable: Mono
+    profile:
+      config: Release
+    analyze:
+      config: Debug
+    archive:
+      config: Release
+    test:
+      config: Debug
+      targets:
+        - MonoTests
+        - MonoUITests
+    management:
+      shared: true
+      orderHint: 0
+      isShown: true
+  MonoBroadcast:
+    build:
+      targets:
+        MonoBroadcast: all
+    management:
+      shared: true
+      orderHint: 1
+      isShown: false
+targets:
+  Mono:
+    type: application
+    platform: iOS
+    sources:
+      - path: Mono
+        excludes:
+          - Design
+          - CanvasGlassUI
+          - FeatherGlassUI
+          - FrameRailUI
+          - LiquidUI
+          - SignalUI
+          - SpatialUI
+          - Views
+          - WildCutUI
+      - path: Shared/ScreenRecordingConfiguration.swift
+    resources:
+      - path: Mono/Resources
+    info:
+      path: Mono/Info.plist
+      properties:
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
+        CFBundleDisplayName: MonoFrame
+        CFBundleName: MonoFrame
+        ITSAppUsesNonExemptEncryption: false
+        UILaunchScreen: {}
+        NSMicrophoneUsageDescription: MonoFrame 需要麦克风权限以录制音频。
+        NSCameraUsageDescription: MonoFrame 的媒体处理组件支持相机视频输入，仅在你主动使用相关功能时访问相机。
+        NSPhotoLibraryAddUsageDescription: MonoFrame 需要照片权限以导出视频与 Live Photo。
+        NSPhotoLibraryUsageDescription: MonoFrame 需要完全访问权限以将视频与 Live Photo 写入照片图库。
+        NSSpeechRecognitionUsageDescription: MonoFrame 需要语音识别权限以生成实时悬浮字幕与字幕文件。
+        CFBundleURLTypes:
+          - CFBundleURLName: com.linchengbo.mono.screenaudio
+            CFBundleURLSchemes:
+              - mono
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationPortrait
+          - UIInterfaceOrientationPortraitUpsideDown
+          - UIInterfaceOrientationLandscapeLeft
+          - UIInterfaceOrientationLandscapeRight
+    entitlements:
+      path: Mono/Mono.entitlements
+      properties:
+        com.apple.security.application-groups:
+          - group.com.linchengbo.mono.screenaudio
+        com.apple.developer.icloud-container-identifiers:
+          - iCloud.com.linchengbo.mono.screenaudio
+        com.apple.developer.icloud-services:
+          - CloudDocuments
+        com.apple.developer.ubiquity-container-identifiers:
+          - iCloud.com.linchengbo.mono.screenaudio
+        com.apple.developer.ubiquity-kvstore-identifier: $(TeamIdentifierPrefix)com.linchengbo.mono.screenaudio
+    dependencies:
+      - target: MonoBroadcast
+        embed: true
+      - target: MonoControls
+        embed: true
+      - package: FFmpegSwiftSDK
+      - sdk: AppIntents.framework
+      - sdk: Speech.framework
+    settings:
+      base:
+        PRODUCT_NAME: MonoFrame
+        PRODUCT_BUNDLE_IDENTIFIER: com.linchengbo.mono.screenaudio
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        TARGETED_DEVICE_FAMILY: "1,2"
+        SWIFT_SUPPRESS_WARNINGS: YES
+  MonoBroadcast:
+    type: app-extension
+    platform: iOS
+    sources:
+      - path: MonoBroadcast
+      - path: Shared/ScreenRecordingConfiguration.swift
+    resources:
+      - path: MonoBroadcast/PrivacyInfo.xcprivacy
+    dependencies:
+      - sdk: AppIntents.framework
+    info:
+      path: MonoBroadcast/Info.plist
+      properties:
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
+        CFBundleDisplayName: MonoFrame Broadcast
+        ITSAppUsesNonExemptEncryption: false
+        NSExtension:
+          NSExtensionPointIdentifier: com.apple.broadcast-services-upload
+          NSExtensionPrincipalClass: $(PRODUCT_MODULE_NAME).SampleHandler
+          RPBroadcastProcessMode: RPBroadcastProcessModeSampleBuffer
+    entitlements:
+      path: MonoBroadcast/MonoBroadcast.entitlements
+      properties:
+        com.apple.security.application-groups:
+          - group.com.linchengbo.mono.screenaudio
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.linchengbo.mono.screenaudio.broadcast
+        SKIP_INSTALL: YES
+        TARGETED_DEVICE_FAMILY: "1,2"
+  MonoControls:
+    type: app-extension
+    platform: iOS
+    sources:
+      - path: MonoControls
+      - path: Mono/PearlUI/Design/PearlGlyph.swift
+    info:
+      path: MonoControls/Info.plist
+      properties:
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
+        CFBundleDisplayName: MonoFrame Controls
+        ITSAppUsesNonExemptEncryption: false
+        NSExtension:
+          NSExtensionPointIdentifier: com.apple.widgetkit-extension
+    entitlements:
+      path: MonoControls/MonoControls.entitlements
+      properties:
+        com.apple.security.application-groups:
+          - group.com.linchengbo.mono.screenaudio
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.linchengbo.mono.screenaudio.controls
+        SKIP_INSTALL: YES
+        TARGETED_DEVICE_FAMILY: "1,2"
+  MonoTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - path: MonoTests
+    dependencies:
+      - target: Mono
+      - package: FFmpegSwiftSDK
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.linchengbo.mono.screenaudio.tests
+        TEST_HOST: "$(BUILT_PRODUCTS_DIR)/MonoFrame.app/MonoFrame"
+        BUNDLE_LOADER: "$(TEST_HOST)"
+        GENERATE_INFOPLIST_FILE: YES
+        CODE_SIGNING_ALLOWED: NO
+  MonoUITests:
+    type: bundle.ui-testing
+    platform: iOS
+    sources:
+      - path: MonoUITests
+    dependencies:
+      - target: Mono
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.linchengbo.mono.screenaudio.uitests
+        GENERATE_INFOPLIST_FILE: YES
+        TEST_TARGET_NAME: Mono
+        CODE_SIGNING_ALLOWED: NO

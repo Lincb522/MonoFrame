@@ -1,0 +1,47 @@
+.DS_Store
+.derived/
+.derived-*/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+Packages/FFmpegSwiftSDK/.build/
+Packages/FFmpegSwiftSDK/.swiftpm/
+Packages/FFmpegSwiftSDK/build-ffmpeg/
+Packages/FFmpegSwiftSDK/build-output/
+
+# Local recordings, release evidence, design experiments, and signing materials
+/build/
+/Backups/
+/.device-media.*/
+/AppStoreAssets/
+/AppStoreExportOptions.plist
+/Design/
+/DesignAssets/
+/Tools/
+/ctf-audit-ipa-store/
+/ffbuild/
+/PRODUCT.md
+/DESIGN.md
+/UPDATES-*.md
+/Packages/Mono */
+*.ipa
+*.xcarchive/
+*.dSYM/
+*.xcresult/
+*.mobileprovision
+*.provisionprofile
+*.p12
+*.p8
+*.key
+.env
+.env.*
+!*.example
+*.log
+
+# Vendored package build output
+**/.build/
+**/.swiftpm/
+**/build-ffmpeg/
+**/build-output/
+**/Frameworks/
+**/.kiro/

@@ -1,0 +1,1370 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		006A89E871F66C455D3E246D /* ClipMotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DA36835B623C6C5A68E9BA /* ClipMotion.swift */; };
+		00C239C595BA2BA3C9120709 /* MTGlitchDisplaceTransition.metal in Sources */ = {isa = PBXBuildFile; fileRef = 65AB67BBA8185333FD5E018B /* MTGlitchDisplaceTransition.metal */; };
+		011B7D2F1AE798F76943F1D7 /* MTBookFlipTransition.metal in Sources */ = {isa = PBXBuildFile; fileRef = 1583EE392E5D44499D8A3575 /* MTBookFlipTransition.metal */; };
+		034F1F8F7C1E377C2B71F9DB /* VideoProjectStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449FF4BE1BCDBB59929DB653 /* VideoProjectStore.swift */; };
+		055F8E4A7B35FCE495289887 /* PearlStudioSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = C464E4A1F62BD0E55D677622 /* PearlStudioSection.swift */; };
+		060C29C1ED5D3D7CDCC0172E /* MTWindowSliceTransition.metal in Sources */ = {isa = PBXBuildFile; fileRef = 96A148C5A0645CA556DFEE40 /* MTWindowSliceTransition.metal */; };
+		07338D8E660F7689041A667F /* MTDreamyTransition.metal in Sources */ = {isa = PBXBuildFile; fileRef = 7D03C42F8973C9E198885FFC /* MTDreamyTransition.metal */; };
+		09574802153441572D2D6D89 /* MTGlitchMemoriesTransition.metal in Sources */ = {isa = PBXBuildFile; fileRef = F001E4819C8E44312F97D3C4 /* MTGlitchMemoriesTransition.metal */; };
+		0B59FBBF7289B7EB0E186120 /* RecordingLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCAC0D8244840D4792CE69B /* RecordingLibrary.swift */; };
+		0BBA44317CF06970EB40D996 /* MTBowTieVerticalTransition.metal in Sources */ = {isa = PBXBuildFile; fileRef = 50030BD849ECCB63B19ED222 /* MTBowTieVerticalTransition.metal */; };
+		0DE3014759CEA9F0C3FB841B /* VideoTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF11ACB48B2869EF2AFDE7D /* VideoTransition.swift */; };
+		10DA239F8669CA3F30514EA1 /* MTHeartTransition.metal in Sources */ = {isa = PBXBuildFile; fileRef = C1BFA0518C0B593E1FC9052C /* MTHeartTransition.metal */; };
+		13808A79A818E50BEDDFCD9B /* MTRippleTransition.metal in Sources */ = {isa = PBXBuildFile; fileRef = A2AA9DE1B94A7688BB1400CD /* MTRippleTransition.metal */; };
+		15539F9914C39312638E8BE1 /* MTMosaicTransition.metal in Sources */ = {isa = PBXBuildFile; fileRef = 9870A911E270F54DAD2DB96D /* MTMosaicTransition.metal */; };
+		24BEA0808E783FF84E51F044 /* ScreenRecordingConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6314239CBCB0A417CF37E8 /* ScreenRecordingConfiguration.swift */; };
+		258C942E752523F6AAE60CD3 /* PhotoLibraryWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C3D291B52B4153AEEE727F /* PhotoLibraryWriter.swift */; };
+		25F9E81EDADE39CA92B83F1E /* MediaTranscoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886FED31A88AC2C3EAB5B075 /* MediaTranscoder.swift */; };
+		263101D9B07433238FB112A3 /* FFmpegSwiftSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 8C665FA5B5CD60488B32DB4B /* FFmpegSwiftSDK */; };
+		29ABE3DA45A2DA8B665BB6CA /* MediaConversionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E76870A269B5DCEBA8EC922 /* MediaConversionTests.swift */; };
+		29B09BD0DD937CF5B4A52924 /* PearlGlyph.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EE47A15180688273BA9CC5 /* PearlGlyph.swift */; };
+		29CAAB9B685C5DC08CC4BA96 /* EditingDeskFeatures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49179213C87BA18C6D4230A0 /* EditingDeskFeatures.swift */; };
+		29CE226F89C413881A3826D1 /* MTFadeTransition.metal in Sources */ = {isa = PBXBuildFile; fileRef = 6E75B1BFE976A96949726572 /* MTFadeTransition.metal */; };
+		2DF93537821E1384A381E385 /* MTDoorwayTransition.metal in Sources */ = {isa = PBXBuildFile; fileRef = 68B0E39B2FA0CFA2647528A9 /* MTDoorwayTransition.metal */; };
+		2E590FBE671E1F519CF92438 /* MTZoomInCirclesTransition.metal in Sources */ = {isa = PBXBuildFile; fileRef = DF5E049E74630FAE9FABA1C9 /* MTZoomInCirclesTransition.metal */; };
+		2F1039119E053089195B6DA8 /* MTSimpleZoomTransition.metal in Sources */ = {isa = PBXBuildFile; fileRef = 6F290FAF63253A4892182D81 /* MTSimpleZoomTransition.metal */; };
+		32502BA0AEF54C6D7E642693 /* MTWaterDropTransition.metal in Sources */ = {isa = PBXBuildFile; fileRef = 9B5B96E0BFE7DE06BB278F91 /* MTWaterDropTransition.metal */; };
+		336727145128446E75861DF6 /* PearlTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D85FF54BC589E1C62573792 /* PearlTheme.swift */; };
+		3476F53A331DF072CE1D1FB6 /* MonoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279C11708B9E756E365DDF34 /* MonoApp.swift */; };
+		34C9ED5FD3CD449F15956FAB /* PearlMediaViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AE6D6E7385916189F6CFE1 /* PearlMediaViews.swift */; };
+		353B057A23AB18493CFB9A7A /* AppIntents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19CF0B05C947F0B127437E19 /* AppIntents.framework */; };
+		36E94D5BBA3F9A30BA920540 /* SampleHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AABF84EF1D08EBF26CCB24C /* SampleHandler.swift */; };
+		37844617FE49BF91E0CEBED1 /* MTGridFlipTransition.metal in Sources */ = {isa = PBXBuildFile; fileRef = 7179413D027346B13CE1B086 /* MTGridFlipTransition.metal */; };
+		3819090B12656D4B184CBEF2 /* MTSwapTransition.metal in Sources */ = {isa = PBXBuildFile; fileRef = F190B50E2285A2DE28D5890C /* MTSwapTransition.metal */; };
+		3A6D22EFC6E53E1C027856DC /* MTSqueezeTransition.metal in Sources */ = {isa = PBXBuildFile; fileRef = E525BF99079094BD2B3569A2 /* MTSqueezeTransition.metal */; };
+		3C3EB77E3F5E1DA624E332B0 /* MTCrossWarpTransition.metal in Sources */ = {isa = PBXBuildFile; fileRef = DB832FE839864548F0DA6BF1 /* MTCrossWarpTransition.metal */; };
+		42103E626C2B26EEE03D3BBB /* PearlFileExporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E2925000292F395803E66B /* PearlFileExporter.swift */; };
+		42ABC23358E00A69635880BD /* FFmpegSwiftSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 510BD7A17575B8682C060485 /* FFmpegSwiftSDK */; };
+		45292331B88354A5D7E95015 /* MTDirectionalEasingTransition.metal in Sources */ = {isa = PBXBuildFile; fileRef = 67B8137F1494D0466E61C3BF /* MTDirectionalEasingTransition.metal */; };
+		452C6AFD6BB47FEF3A04E5DD /* MTTransitions-LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 60A5C8D53C5DB48ECFD27536 /* MTTransitions-LICENSE.txt */; };
+		4AE9AE3939E3CF368598424F /* Recording.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76AAE6314F8EF75CDFC0D94D /* Recording.swift */; };
+		50CBDDA407EA1929A2641BCB /* EditingDeskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F691EC19DE06E6FE3BA4CF9C /* EditingDeskTests.swift */; };
+		535688686AA5BDF1C99FE0B2 /* MTRotateScaleFadeTransition.metal in Sources */ = {isa = PBXBuildFile; fileRef = 037342EF813AD54007937356 /* MTRotateScaleFadeTransition.metal */; };
+		5720AA841E6F3ABB02814F93 /* MTCrossZoomTransition.metal in Sources */ = {isa = PBXBuildFile; fileRef = 4685DA852E7025136120426A /* MTCrossZoomTransition.metal */; };
+		5B3764D6DBFBA3CDB5192AE6 /* MonoBroadcast.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 548FEC03633A2F39101ABAD1 /* MonoBroadcast.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5C608CC4B05E2E6D7A344276 /* MTColorPhaseTransition.metal in Sources */ = {isa = PBXBuildFile; fileRef = EEC23C2A97488FB9EBB273E5 /* MTColorPhaseTransition.metal */; };
+		60DD0498FBC9483FAE1FBA11 /* PearlTransitionPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3E98279FB883BE25D84BE3 /* PearlTransitionPanel.swift */; };
+		61C04708A3FAF9FAF9747F5E /* ProEditingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED5B6F739FEA261236FE128 /* ProEditingTests.swift */; };
+		631C03BC0D1851F790A3C89C /* PearlUtilityViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7387E9C58A512C83E3B8CDDD /* PearlUtilityViews.swift */; };
+		6486D067D7961C9994C8045A /* MTWipeRightTransition.metal in Sources */ = {isa = PBXBuildFile; fileRef = EE46DE616647E566A2A4DF64 /* MTWipeRightTransition.metal */; };
+		6577BEF49BDC1371F964AECF /* MTWipeDownTransition.metal in Sources */ = {isa = PBXBuildFile; fileRef = F1758E63A2686998FEB2D551 /* MTWipeDownTransition.metal */; };
+		6729A1EE0786D9CCC4A94243 /* MTFadeInWipeLeftTransition.metal in Sources */ = {isa = PBXBuildFile; fileRef = 9C83B9989B2CA8E74378F2E0 /* MTFadeInWipeLeftTransition.metal */; };
+		6BAEEA180F1E129F88027448 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 2A7CAF6701E13D863850E625 /* PrivacyInfo.xcprivacy */; };
+		6CA304A1E3C4F5646CF0342E /* MTCircleOpenTransition.metal in Sources */ = {isa = PBXBuildFile; fileRef = 500167E3AD7DE0761EAC72FC /* MTCircleOpenTransition.metal */; };
+		6F9D88678B2C02657A98AE23 /* PearlRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515A506FF3473E0CE666EA5E /* PearlRootView.swift */; };
+		71A28EB9E58DF6D1F4B631EB /* MTDirectionalTransition.metal in Sources */ = {isa = PBXBuildFile; fileRef = 0194E956492CB69D010C7041 /* MTDirectionalTransition.metal */; };
+		7338DD7D4C304224EAD33623 /* ScreenRecordingConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6314239CBCB0A417CF37E8 /* ScreenRecordingConfiguration.swift */; };
+		740B95CC5E9D5B0CB4B57D41 /* MTPerlinTransition.metal in Sources */ = {isa = PBXBuildFile; fileRef = 285036050CF9787D995ECCF7 /* MTPerlinTransition.metal */; };
+		74475A856FADE1A773FEB732 /* MTHexagonalizeTransition.metal in Sources */ = {isa = PBXBuildFile; fileRef = AACFB560F0A167FB810BA9F2 /* MTHexagonalizeTransition.metal */; };
+		74C838611747FF27DC53174B /* PermissionCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4AD4E1F314A61C45CEBE59 /* PermissionCenter.swift */; };
+		78F7763343200A437C97617E /* PearlTimelineViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93353A3D629A6FA2C10522E1 /* PearlTimelineViews.swift */; };
+		79421C728B7A7A02FC70626C /* AppIntents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19CF0B05C947F0B127437E19 /* AppIntents.framework */; };
+		7A302247D2A5072F8ECC1670 /* MTWipeUpTransition.metal in Sources */ = {isa = PBXBuildFile; fileRef = DA0D4A4169E73635AD63A3E9 /* MTWipeUpTransition.metal */; };
+		7A886EBF6A6E51AA5C2B494B /* MTWindTransition.metal in Sources */ = {isa = PBXBuildFile; fileRef = 8CDB83A39B26718DA155A244 /* MTWindTransition.metal */; };
+		7D40B0DB18525F9A011C3A12 /* CaptureEnhancements.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24F0E5625256FB01A19D6A4 /* CaptureEnhancements.swift */; };
+		7E87A02DB2375FBF13B7A0EB /* MTDirectionalWarpTransition.metal in Sources */ = {isa = PBXBuildFile; fileRef = 93A6ECA037B9391AFB3384C1 /* MTDirectionalWarpTransition.metal */; };
+		80D6B691F305FB8669790D85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3123E3B3AF3C56FD26A3DC2B /* Assets.xcassets */; };
+		80EEF0FD72DD62303BFB2F10 /* MTInvertedPageCurlTransition.metal in Sources */ = {isa = PBXBuildFile; fileRef = 20B8E61EB8000F31C2033EA4 /* MTInvertedPageCurlTransition.metal */; };
+		8149CA4EBEA89854887017BC /* VideoEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D97DC176110F57774E7B6E6 /* VideoEditor.swift */; };
+		81FB2E051DDBC3619364EF0D /* PearlEditorControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8D59D9A14236236A6F6499 /* PearlEditorControls.swift */; };
+		836048FF91AE655AD9B8A00A /* MTDreamyZoomTransition.metal in Sources */ = {isa = PBXBuildFile; fileRef = EF471AF16EFC2695BA03B638 /* MTDreamyZoomTransition.metal */; };
+		8C7CA03737E3604A15613F9F /* PearlAudioRecorderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B994DF86E83FD5C903B3E0 /* PearlAudioRecorderView.swift */; };
+		8FC0BCAF7603CA1C7CF6B5FA /* MTFadegrayscaleTransition.metal in Sources */ = {isa = PBXBuildFile; fileRef = B2ADA42F5E90B9CD0D6C4DDA /* MTFadegrayscaleTransition.metal */; };
+		91064BE23F8B82D28939384F /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 12F3CD667A6F978438D9ED60 /* PrivacyInfo.xcprivacy */; };
+		9174127B3D7C28AFDDFF1C0D /* LivePhotoMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F3C0696107391589F744FA /* LivePhotoMaker.swift */; };
+		96FBBD23A4033F557856D5F8 /* MTAngularTransition.metal in Sources */ = {isa = PBXBuildFile; fileRef = 4AE64F3AD6D366DE9559716C /* MTAngularTransition.metal */; };
+		994A3E00D87A4E44C67F8FB7 /* MTFadeInWipeUpTransition.metal in Sources */ = {isa = PBXBuildFile; fileRef = BC5292EFDD780E34792C1D94 /* MTFadeInWipeUpTransition.metal */; };
+		9A66B405DFE4947CD17336DB /* PearlAudioEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBC6019AEF53D0EFF99D567 /* PearlAudioEditorView.swift */; };
+		9C8437483395F7BA09519C96 /* TranscodeQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B2AEE6B249D2808BB0E318 /* TranscodeQueue.swift */; };
+		9F6024FB2CAADA4CF12E2BF2 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 83E30C44BC0CBA7329B01614 /* README.md */; };
+		9FCA98BB8C76A956E9BFB9B2 /* MTSwirlTransition.metal in Sources */ = {isa = PBXBuildFile; fileRef = ADA19A357E7C194E4F3B62E5 /* MTSwirlTransition.metal */; };
+		A2F272795F87CDD15201D64E /* PearlCaptureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96AECBAF595F97146B9D0B52 /* PearlCaptureView.swift */; };
+		A75E448656390E36BDE0C5A8 /* PearlBroadcastPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4932AE67A6889647146F2785 /* PearlBroadcastPicker.swift */; };
+		AB300C29833D71D3DBB75030 /* PearlVideoEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03B6D1F4D66643E984104FB /* PearlVideoEditorView.swift */; };
+		AE75392D2B3BB01AA4671978 /* MTWipeLeftTransition.metal in Sources */ = {isa = PBXBuildFile; fileRef = C8EBBB4CD14CC4FA7ACA5612 /* MTWipeLeftTransition.metal */; };
+		AF90DBFCD7A59192F8777713 /* MTRandomSquaresTransition.metal in Sources */ = {isa = PBXBuildFile; fileRef = CABC466A82E41595CFB56789 /* MTRandomSquaresTransition.metal */; };
+		B029D279FCDFF9F8E0303323 /* PearlLivePhotoEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF471F1301B3A4B932B85B76 /* PearlLivePhotoEditor.swift */; };
+		B0EEB9994BEE6E9112CB5D87 /* AudioEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A3A3C47B0A772130E43611 /* AudioEditor.swift */; };
+		BB445DF112BEE6C2F15E3309 /* PearlMediaModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1399DB008F501423ACABBA0C /* PearlMediaModels.swift */; };
+		BBB1BE21C4369BD181A338DB /* MTDirectionalWipeTransition.metal in Sources */ = {isa = PBXBuildFile; fileRef = 094AD4AF7AA81DE87F6CBC8D /* MTDirectionalWipeTransition.metal */; };
+		C01607927ADAE4E10F3CBB53 /* MTBurnTransition.metal in Sources */ = {isa = PBXBuildFile; fileRef = 243D37DA0013CEA9F92E6805 /* MTBurnTransition.metal */; };
+		C08F7F894F27B41CB53B56E0 /* MonoControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43EED81150D6AB9831E3CC1 /* MonoControls.swift */; };
+		C1E59744CBB8A93D80544D0D /* MTCubeTransition.metal in Sources */ = {isa = PBXBuildFile; fileRef = E90A47C6E94F193A1E9BF4EA /* MTCubeTransition.metal */; };
+		C5F0860729A31A312120EDF7 /* PearlGlyph.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EE47A15180688273BA9CC5 /* PearlGlyph.swift */; };
+		CFC7BBB6CA9D7F033C4E204A /* MTBounceTransition.metal in Sources */ = {isa = PBXBuildFile; fileRef = 255175AAAA843A1C3CA8FF9C /* MTBounceTransition.metal */; };
+		D557B4BBBFCA368505B215C2 /* MonoTransitionVertex.metal in Sources */ = {isa = PBXBuildFile; fileRef = 9C19272DB726A01A73152C06 /* MonoTransitionVertex.metal */; };
+		DA9BD535CF3D33A53B8E9B8A /* MTBowTieHorizontalTransition.metal in Sources */ = {isa = PBXBuildFile; fileRef = C4BB8D46E08B39B16B4E85EB /* MTBowTieHorizontalTransition.metal */; };
+		DCC7A45CFE53250B761650F4 /* Speech.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAE88AA652EAE4CBECE44862 /* Speech.framework */; };
+		DCDE0DAC8A774700D362DDBF /* PearlSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BA14BC91A87032E19EDBF7 /* PearlSettingsView.swift */; };
+		DD6CF0841210E6E4E71B2CAA /* MTWindowBlindsTransition.metal in Sources */ = {isa = PBXBuildFile; fileRef = E004190F0543B7C9405C15DA /* MTWindowBlindsTransition.metal */; };
+		DEB00CF189C7C4CFA9BA2AF9 /* EditorVideoCompositor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CC52F1E6FD8052ED0EC1AD /* EditorVideoCompositor.swift */; };
+		DED26C9A9276C925366CC67B /* PearlMotionPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E86EFFEFABB5EE0F823155 /* PearlMotionPanel.swift */; };
+		DF86975D36D1D8536D9E5202 /* ThumbnailLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F6583F92BE1B6DA27A5EAA /* ThumbnailLoader.swift */; };
+		E09340030A301943A94AE069 /* PearlInterfaceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C0FA3FC3D54A6F354844BD /* PearlInterfaceTests.swift */; };
+		E45B4B3D59ABFECD4492A2E1 /* MTMultiplyBlendTransition.metal in Sources */ = {isa = PBXBuildFile; fileRef = 159D6386C0D18CAB31A4CF7D /* MTMultiplyBlendTransition.metal */; };
+		E75E5ED8FD64673C11F58A90 /* VideoTransitionRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D2B64C82EE1A6BC7A454BA /* VideoTransitionRenderer.swift */; };
+		E8D5ACE9FFE919F0E194BF34 /* LegalDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3673A9031BEE634DBD2D7CF9 /* LegalDocument.swift */; };
+		EAF60E3E8F9269826CCF211B /* PearlTranscodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167118563CF5AFFB1FADF3A2 /* PearlTranscodeView.swift */; };
+		ECA49DAB39428F9C5F7FAC95 /* MTFadeColorTransition.metal in Sources */ = {isa = PBXBuildFile; fileRef = A0F855502679308A2B4DA756 /* MTFadeColorTransition.metal */; };
+		ED8CE321034F9916CA2386ED /* MTSquaresWireTransition.metal in Sources */ = {isa = PBXBuildFile; fileRef = 2524D15D806A8C88671456E1 /* MTSquaresWireTransition.metal */; };
+		EFEBB602A908D57B738C3FF6 /* PearlProjectTimeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC405BB044601138ED0DA1B /* PearlProjectTimeline.swift */; };
+		F49ED507911815162488895F /* MTLinearBlurTransition.metal in Sources */ = {isa = PBXBuildFile; fileRef = 71A4AA96D6F81235A11F7A46 /* MTLinearBlurTransition.metal */; };
+		F77B39FD036EF8F3FD84DAFD /* MTRadialTransition.metal in Sources */ = {isa = PBXBuildFile; fileRef = 596A26E0033ADAB9BEB39D88 /* MTRadialTransition.metal */; };
+		F8FBE9C79805B6751F4879BC /* MonoControls.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 869644C8A17A3B14FFD41B74 /* MonoControls.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FF714E41FBB2ADE4680B1648 /* AudioRecordingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD053A8ED655771DFACFD3E6 /* AudioRecordingService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		459445AFEDE4EE54DE280BDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50C773D53788D7B9E5175DC7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59DE0F6BF2815D14AE44E7A8;
+			remoteInfo = Mono;
+		};
+		A44EC2D8070FC41219C51531 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50C773D53788D7B9E5175DC7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59DE0F6BF2815D14AE44E7A8;
+			remoteInfo = Mono;
+		};
+		B1FDD0DD30E156595EA80091 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50C773D53788D7B9E5175DC7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 900C4E5462E78FEED3CB3CAD;
+			remoteInfo = MonoBroadcast;
+		};
+		CC147E547D8D13D0AACAE8E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50C773D53788D7B9E5175DC7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDF59461E31CA72E717F86BA;
+			remoteInfo = MonoControls;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2D099ADEC5FB44B2BE22CED0 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				5B3764D6DBFBA3CDB5192AE6 /* MonoBroadcast.appex in Embed Foundation Extensions */,
+				F8FBE9C79805B6751F4879BC /* MonoControls.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0194E956492CB69D010C7041 /* MTDirectionalTransition.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = MTDirectionalTransition.metal; sourceTree = "<group>"; };
+		037342EF813AD54007937356 /* MTRotateScaleFadeTransition.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = MTRotateScaleFadeTransition.metal; sourceTree = "<group>"; };
+		04D2B64C82EE1A6BC7A454BA /* VideoTransitionRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoTransitionRenderer.swift; sourceTree = "<group>"; };
+		05A3A3C47B0A772130E43611 /* AudioEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioEditor.swift; sourceTree = "<group>"; };
+		094AD4AF7AA81DE87F6CBC8D /* MTDirectionalWipeTransition.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = MTDirectionalWipeTransition.metal; sourceTree = "<group>"; };
+		0E76870A269B5DCEBA8EC922 /* MediaConversionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaConversionTests.swift; sourceTree = "<group>"; };
+		12F3CD667A6F978438D9ED60 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		1399DB008F501423ACABBA0C /* PearlMediaModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PearlMediaModels.swift; sourceTree = "<group>"; };
+		1583EE392E5D44499D8A3575 /* MTBookFlipTransition.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = MTBookFlipTransition.metal; sourceTree = "<group>"; };
+		159D6386C0D18CAB31A4CF7D /* MTMultiplyBlendTransition.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = MTMultiplyBlendTransition.metal; sourceTree = "<group>"; };
+		167118563CF5AFFB1FADF3A2 /* PearlTranscodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PearlTranscodeView.swift; sourceTree = "<group>"; };
+		18DA36835B623C6C5A68E9BA /* ClipMotion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipMotion.swift; sourceTree = "<group>"; };
+		19CF0B05C947F0B127437E19 /* AppIntents.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppIntents.framework; path = System/Library/Frameworks/AppIntents.framework; sourceTree = SDKROOT; };
+		20B8E61EB8000F31C2033EA4 /* MTInvertedPageCurlTransition.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = MTInvertedPageCurlTransition.metal; sourceTree = "<group>"; };
+		21B2AEE6B249D2808BB0E318 /* TranscodeQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranscodeQueue.swift; sourceTree = "<group>"; };
+		243D37DA0013CEA9F92E6805 /* MTBurnTransition.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = MTBurnTransition.metal; sourceTree = "<group>"; };
+		2524D15D806A8C88671456E1 /* MTSquaresWireTransition.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = MTSquaresWireTransition.metal; sourceTree = "<group>"; };
+		255175AAAA843A1C3CA8FF9C /* MTBounceTransition.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = MTBounceTransition.metal; sourceTree = "<group>"; };
+		279C11708B9E756E365DDF34 /* MonoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonoApp.swift; sourceTree = "<group>"; };
+		285036050CF9787D995ECCF7 /* MTPerlinTransition.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = MTPerlinTransition.metal; sourceTree = "<group>"; };
+		2A7CAF6701E13D863850E625 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		2BBC6019AEF53D0EFF99D567 /* PearlAudioEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PearlAudioEditorView.swift; sourceTree = "<group>"; };
+		2ED5B6F739FEA261236FE128 /* ProEditingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProEditingTests.swift; sourceTree = "<group>"; };
+		2FC405BB044601138ED0DA1B /* PearlProjectTimeline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PearlProjectTimeline.swift; sourceTree = "<group>"; };
+		30E2096F1167C38C74CC7897 /* MonoTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = MonoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3123E3B3AF3C56FD26A3DC2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3673A9031BEE634DBD2D7CF9 /* LegalDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegalDocument.swift; sourceTree = "<group>"; };
+		3D6314239CBCB0A417CF37E8 /* ScreenRecordingConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenRecordingConfiguration.swift; sourceTree = "<group>"; };
+		449FF4BE1BCDBB59929DB653 /* VideoProjectStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoProjectStore.swift; sourceTree = "<group>"; };
+		44B994DF86E83FD5C903B3E0 /* PearlAudioRecorderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PearlAudioRecorderView.swift; sourceTree = "<group>"; };
+		4685DA852E7025136120426A /* MTCrossZoomTransition.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = MTCrossZoomTransition.metal; sourceTree = "<group>"; };
+		46D0B697BB0C9E4468F08433 /* MTIShaderLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTIShaderLib.h; sourceTree = "<group>"; };
+		49179213C87BA18C6D4230A0 /* EditingDeskFeatures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditingDeskFeatures.swift; sourceTree = "<group>"; };
+		4932AE67A6889647146F2785 /* PearlBroadcastPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PearlBroadcastPicker.swift; sourceTree = "<group>"; };
+		4AE64F3AD6D366DE9559716C /* MTAngularTransition.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = MTAngularTransition.metal; sourceTree = "<group>"; };
+		4B4AD4E1F314A61C45CEBE59 /* PermissionCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionCenter.swift; sourceTree = "<group>"; };
+		500167E3AD7DE0761EAC72FC /* MTCircleOpenTransition.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = MTCircleOpenTransition.metal; sourceTree = "<group>"; };
+		50030BD849ECCB63B19ED222 /* MTBowTieVerticalTransition.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = MTBowTieVerticalTransition.metal; sourceTree = "<group>"; };
+		515A506FF3473E0CE666EA5E /* PearlRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PearlRootView.swift; sourceTree = "<group>"; };
+		543543DB59E09BC3D5FB5B08 /* Mono.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Mono.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		548FEC03633A2F39101ABAD1 /* MonoBroadcast.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = MonoBroadcast.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		57E86EFFEFABB5EE0F823155 /* PearlMotionPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PearlMotionPanel.swift; sourceTree = "<group>"; };
+		596A26E0033ADAB9BEB39D88 /* MTRadialTransition.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = MTRadialTransition.metal; sourceTree = "<group>"; };
+		5B01B025F7E9795486100D6D /* MonoBroadcast.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MonoBroadcast.entitlements; sourceTree = "<group>"; };
+		60A5C8D53C5DB48ECFD27536 /* MTTransitions-LICENSE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "MTTransitions-LICENSE.txt"; sourceTree = "<group>"; };
+		63C3D291B52B4153AEEE727F /* PhotoLibraryWriter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoLibraryWriter.swift; sourceTree = "<group>"; };
+		65AB67BBA8185333FD5E018B /* MTGlitchDisplaceTransition.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = MTGlitchDisplaceTransition.metal; sourceTree = "<group>"; };
+		67B8137F1494D0466E61C3BF /* MTDirectionalEasingTransition.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = MTDirectionalEasingTransition.metal; sourceTree = "<group>"; };
+		68B0E39B2FA0CFA2647528A9 /* MTDoorwayTransition.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = MTDoorwayTransition.metal; sourceTree = "<group>"; };
+		6C8D59D9A14236236A6F6499 /* PearlEditorControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PearlEditorControls.swift; sourceTree = "<group>"; };
+		6E75B1BFE976A96949726572 /* MTFadeTransition.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = MTFadeTransition.metal; sourceTree = "<group>"; };
+		6F290FAF63253A4892182D81 /* MTSimpleZoomTransition.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = MTSimpleZoomTransition.metal; sourceTree = "<group>"; };
+		6F2E1E9639B97EB2499509E2 /* Mono.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Mono.entitlements; sourceTree = "<group>"; };
+		7179413D027346B13CE1B086 /* MTGridFlipTransition.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = MTGridFlipTransition.metal; sourceTree = "<group>"; };
+		71A4AA96D6F81235A11F7A46 /* MTLinearBlurTransition.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = MTLinearBlurTransition.metal; sourceTree = "<group>"; };
+		7387E9C58A512C83E3B8CDDD /* PearlUtilityViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PearlUtilityViews.swift; sourceTree = "<group>"; };
+		76AAE6314F8EF75CDFC0D94D /* Recording.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recording.swift; sourceTree = "<group>"; };
+		7BCAC0D8244840D4792CE69B /* RecordingLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingLibrary.swift; sourceTree = "<group>"; };
+		7D03C42F8973C9E198885FFC /* MTDreamyTransition.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = MTDreamyTransition.metal; sourceTree = "<group>"; };
+		7D97DC176110F57774E7B6E6 /* VideoEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoEditor.swift; sourceTree = "<group>"; };
+		83E30C44BC0CBA7329B01614 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		869644C8A17A3B14FFD41B74 /* MonoControls.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = MonoControls.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		886FED31A88AC2C3EAB5B075 /* MediaTranscoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaTranscoder.swift; sourceTree = "<group>"; };
+		8CDB83A39B26718DA155A244 /* MTWindTransition.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = MTWindTransition.metal; sourceTree = "<group>"; };
+		8D85FF54BC589E1C62573792 /* PearlTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PearlTheme.swift; sourceTree = "<group>"; };
+		8E81FCF4D3D2D7C5673839DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8F3E98279FB883BE25D84BE3 /* PearlTransitionPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PearlTransitionPanel.swift; sourceTree = "<group>"; };
+		900E8C9FE6D49818328755CA /* MonoControls.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MonoControls.entitlements; sourceTree = "<group>"; };
+		93353A3D629A6FA2C10522E1 /* PearlTimelineViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PearlTimelineViews.swift; sourceTree = "<group>"; };
+		93A6ECA037B9391AFB3384C1 /* MTDirectionalWarpTransition.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = MTDirectionalWarpTransition.metal; sourceTree = "<group>"; };
+		94F3C0696107391589F744FA /* LivePhotoMaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivePhotoMaker.swift; sourceTree = "<group>"; };
+		96A148C5A0645CA556DFEE40 /* MTWindowSliceTransition.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = MTWindowSliceTransition.metal; sourceTree = "<group>"; };
+		96AECBAF595F97146B9D0B52 /* PearlCaptureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PearlCaptureView.swift; sourceTree = "<group>"; };
+		96C0FA3FC3D54A6F354844BD /* PearlInterfaceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PearlInterfaceTests.swift; sourceTree = "<group>"; };
+		9870A911E270F54DAD2DB96D /* MTMosaicTransition.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = MTMosaicTransition.metal; sourceTree = "<group>"; };
+		9AABF84EF1D08EBF26CCB24C /* SampleHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleHandler.swift; sourceTree = "<group>"; };
+		9ACBF1F36C64B4D83DCF235A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		9B5B96E0BFE7DE06BB278F91 /* MTWaterDropTransition.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = MTWaterDropTransition.metal; sourceTree = "<group>"; };
+		9C19272DB726A01A73152C06 /* MonoTransitionVertex.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = MonoTransitionVertex.metal; sourceTree = "<group>"; };
+		9C83B9989B2CA8E74378F2E0 /* MTFadeInWipeLeftTransition.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = MTFadeInWipeLeftTransition.metal; sourceTree = "<group>"; };
+		9FF11ACB48B2869EF2AFDE7D /* VideoTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoTransition.swift; sourceTree = "<group>"; };
+		A03B6D1F4D66643E984104FB /* PearlVideoEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PearlVideoEditorView.swift; sourceTree = "<group>"; };
+		A0F855502679308A2B4DA756 /* MTFadeColorTransition.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = MTFadeColorTransition.metal; sourceTree = "<group>"; };
+		A2AA9DE1B94A7688BB1400CD /* MTRippleTransition.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = MTRippleTransition.metal; sourceTree = "<group>"; };
+		A7101DAAA764A4945AC54B49 /* FFmpegSwiftSDK */ = {isa = PBXFileReference; lastKnownFileType = folder; name = FFmpegSwiftSDK; path = Packages/FFmpegSwiftSDK; sourceTree = SOURCE_ROOT; };
+		AACFB560F0A167FB810BA9F2 /* MTHexagonalizeTransition.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = MTHexagonalizeTransition.metal; sourceTree = "<group>"; };
+		ADA19A357E7C194E4F3B62E5 /* MTSwirlTransition.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = MTSwirlTransition.metal; sourceTree = "<group>"; };
+		AF471F1301B3A4B932B85B76 /* PearlLivePhotoEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PearlLivePhotoEditor.swift; sourceTree = "<group>"; };
+		B2ADA42F5E90B9CD0D6C4DDA /* MTFadegrayscaleTransition.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = MTFadegrayscaleTransition.metal; sourceTree = "<group>"; };
+		BC5292EFDD780E34792C1D94 /* MTFadeInWipeUpTransition.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = MTFadeInWipeUpTransition.metal; sourceTree = "<group>"; };
+		C1BFA0518C0B593E1FC9052C /* MTHeartTransition.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = MTHeartTransition.metal; sourceTree = "<group>"; };
+		C24F0E5625256FB01A19D6A4 /* CaptureEnhancements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureEnhancements.swift; sourceTree = "<group>"; };
+		C464E4A1F62BD0E55D677622 /* PearlStudioSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PearlStudioSection.swift; sourceTree = "<group>"; };
+		C4BB8D46E08B39B16B4E85EB /* MTBowTieHorizontalTransition.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = MTBowTieHorizontalTransition.metal; sourceTree = "<group>"; };
+		C5E2925000292F395803E66B /* PearlFileExporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PearlFileExporter.swift; sourceTree = "<group>"; };
+		C8EBBB4CD14CC4FA7ACA5612 /* MTWipeLeftTransition.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = MTWipeLeftTransition.metal; sourceTree = "<group>"; };
+		CABA1BEFBC0A94055C582B7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		CABC466A82E41595CFB56789 /* MTRandomSquaresTransition.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = MTRandomSquaresTransition.metal; sourceTree = "<group>"; };
+		CAE88AA652EAE4CBECE44862 /* Speech.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Speech.framework; path = System/Library/Frameworks/Speech.framework; sourceTree = SDKROOT; };
+		D7AE6D6E7385916189F6CFE1 /* PearlMediaViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PearlMediaViews.swift; sourceTree = "<group>"; };
+		DA0D4A4169E73635AD63A3E9 /* MTWipeUpTransition.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = MTWipeUpTransition.metal; sourceTree = "<group>"; };
+		DB832FE839864548F0DA6BF1 /* MTCrossWarpTransition.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = MTCrossWarpTransition.metal; sourceTree = "<group>"; };
+		DF5E049E74630FAE9FABA1C9 /* MTZoomInCirclesTransition.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = MTZoomInCirclesTransition.metal; sourceTree = "<group>"; };
+		E004190F0543B7C9405C15DA /* MTWindowBlindsTransition.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = MTWindowBlindsTransition.metal; sourceTree = "<group>"; };
+		E525BF99079094BD2B3569A2 /* MTSqueezeTransition.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = MTSqueezeTransition.metal; sourceTree = "<group>"; };
+		E7BA14BC91A87032E19EDBF7 /* PearlSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PearlSettingsView.swift; sourceTree = "<group>"; };
+		E7EE47A15180688273BA9CC5 /* PearlGlyph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PearlGlyph.swift; sourceTree = "<group>"; };
+		E8CC52F1E6FD8052ED0EC1AD /* EditorVideoCompositor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorVideoCompositor.swift; sourceTree = "<group>"; };
+		E90A47C6E94F193A1E9BF4EA /* MTCubeTransition.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = MTCubeTransition.metal; sourceTree = "<group>"; };
+		EBE4907B834E0D80F79C3C78 /* MonoUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = MonoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE46DE616647E566A2A4DF64 /* MTWipeRightTransition.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = MTWipeRightTransition.metal; sourceTree = "<group>"; };
+		EEC23C2A97488FB9EBB273E5 /* MTColorPhaseTransition.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = MTColorPhaseTransition.metal; sourceTree = "<group>"; };
+		EF471AF16EFC2695BA03B638 /* MTDreamyZoomTransition.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = MTDreamyZoomTransition.metal; sourceTree = "<group>"; };
+		F001E4819C8E44312F97D3C4 /* MTGlitchMemoriesTransition.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = MTGlitchMemoriesTransition.metal; sourceTree = "<group>"; };
+		F1758E63A2686998FEB2D551 /* MTWipeDownTransition.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = MTWipeDownTransition.metal; sourceTree = "<group>"; };
+		F190B50E2285A2DE28D5890C /* MTSwapTransition.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = MTSwapTransition.metal; sourceTree = "<group>"; };
+		F1F6583F92BE1B6DA27A5EAA /* ThumbnailLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThumbnailLoader.swift; sourceTree = "<group>"; };
+		F43EED81150D6AB9831E3CC1 /* MonoControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonoControls.swift; sourceTree = "<group>"; };
+		F691EC19DE06E6FE3BA4CF9C /* EditingDeskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditingDeskTests.swift; sourceTree = "<group>"; };
+		F836E05A1641DE96B147B57A /* MTTransitionLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTTransitionLib.h; sourceTree = "<group>"; };
+		FD053A8ED655771DFACFD3E6 /* AudioRecordingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioRecordingService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0EAB0CA733A6912047527EF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79421C728B7A7A02FC70626C /* AppIntents.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ACE4858A9247B2EE71256BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42ABC23358E00A69635880BD /* FFmpegSwiftSDK in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75FCDE45169A90C9D6C473E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				263101D9B07433238FB112A3 /* FFmpegSwiftSDK in Frameworks */,
+				353B057A23AB18493CFB9A7A /* AppIntents.framework in Frameworks */,
+				DCC7A45CFE53250B761650F4 /* Speech.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10BE08965FDF2969D18F4FE9 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				515A506FF3473E0CE666EA5E /* PearlRootView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		17A8E6F4A17EA03CE54FC398 = {
+			isa = PBXGroup;
+			children = (
+				F00EAEE3DAE248BABAAA2CFA /* Mono */,
+				6F3A680D8B984F33F6FCF0A8 /* MonoBroadcast */,
+				3BADE605524ECE43A468A3E4 /* MonoControls */,
+				B2F7C73F2024A5D8BB70F8A2 /* MonoTests */,
+				A805CA8F0E686372A9B17A89 /* MonoUITests */,
+				570C4450A0F0DFDAEF15F825 /* Packages */,
+				BF0C97EB5A07BF277AC8CCA9 /* Shared */,
+				B7E48387718F221DCA4A619F /* Frameworks */,
+				66222E2C8951B1D19AF91F13 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2D85749BA66A45621A470264 /* Transitions */ = {
+			isa = PBXGroup;
+			children = (
+				18DA36835B623C6C5A68E9BA /* ClipMotion.swift */,
+				E8CC52F1E6FD8052ED0EC1AD /* EditorVideoCompositor.swift */,
+				83E30C44BC0CBA7329B01614 /* README.md */,
+				9FF11ACB48B2869EF2AFDE7D /* VideoTransition.swift */,
+				04D2B64C82EE1A6BC7A454BA /* VideoTransitionRenderer.swift */,
+				5BF8B452311595C7DAF353A1 /* Shaders */,
+			);
+			path = Transitions;
+			sourceTree = "<group>";
+		};
+		368B22BF958759E89933B29F /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				E7EE47A15180688273BA9CC5 /* PearlGlyph.swift */,
+				8D85FF54BC589E1C62573792 /* PearlTheme.swift */,
+			);
+			path = Design;
+			sourceTree = "<group>";
+		};
+		381AE4C19D7C7CE75DF03ED5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3123E3B3AF3C56FD26A3DC2B /* Assets.xcassets */,
+				12F3CD667A6F978438D9ED60 /* PrivacyInfo.xcprivacy */,
+				3856DF27E7C4B054F1D06844 /* ThirdParty */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3856DF27E7C4B054F1D06844 /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				60A5C8D53C5DB48ECFD27536 /* MTTransitions-LICENSE.txt */,
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		3BADE605524ECE43A468A3E4 /* MonoControls */ = {
+			isa = PBXGroup;
+			children = (
+				CABA1BEFBC0A94055C582B7C /* Info.plist */,
+				900E8C9FE6D49818328755CA /* MonoControls.entitlements */,
+				F43EED81150D6AB9831E3CC1 /* MonoControls.swift */,
+			);
+			path = MonoControls;
+			sourceTree = "<group>";
+		};
+		49DB86B334A6C9226E934BCE /* PearlUI */ = {
+			isa = PBXGroup;
+			children = (
+				10BE08965FDF2969D18F4FE9 /* App */,
+				D94D8AB5AD2152010EC4C3E1 /* Capture */,
+				368B22BF958759E89933B29F /* Design */,
+				650E5C4F51C4F25042A377ED /* Editors */,
+				8FE6E5751EAE22A10E7E6D1E /* Media */,
+				F99E4514F314ACBFD0B934DD /* Platform */,
+				FCFC8080B18AE1E2B2CD34BB /* Settings */,
+			);
+			path = PearlUI;
+			sourceTree = "<group>";
+		};
+		570C4450A0F0DFDAEF15F825 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				A7101DAAA764A4945AC54B49 /* FFmpegSwiftSDK */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		5BF8B452311595C7DAF353A1 /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				9C19272DB726A01A73152C06 /* MonoTransitionVertex.metal */,
+				4AE64F3AD6D366DE9559716C /* MTAngularTransition.metal */,
+				1583EE392E5D44499D8A3575 /* MTBookFlipTransition.metal */,
+				255175AAAA843A1C3CA8FF9C /* MTBounceTransition.metal */,
+				C4BB8D46E08B39B16B4E85EB /* MTBowTieHorizontalTransition.metal */,
+				50030BD849ECCB63B19ED222 /* MTBowTieVerticalTransition.metal */,
+				243D37DA0013CEA9F92E6805 /* MTBurnTransition.metal */,
+				500167E3AD7DE0761EAC72FC /* MTCircleOpenTransition.metal */,
+				EEC23C2A97488FB9EBB273E5 /* MTColorPhaseTransition.metal */,
+				DB832FE839864548F0DA6BF1 /* MTCrossWarpTransition.metal */,
+				4685DA852E7025136120426A /* MTCrossZoomTransition.metal */,
+				E90A47C6E94F193A1E9BF4EA /* MTCubeTransition.metal */,
+				67B8137F1494D0466E61C3BF /* MTDirectionalEasingTransition.metal */,
+				0194E956492CB69D010C7041 /* MTDirectionalTransition.metal */,
+				93A6ECA037B9391AFB3384C1 /* MTDirectionalWarpTransition.metal */,
+				094AD4AF7AA81DE87F6CBC8D /* MTDirectionalWipeTransition.metal */,
+				68B0E39B2FA0CFA2647528A9 /* MTDoorwayTransition.metal */,
+				7D03C42F8973C9E198885FFC /* MTDreamyTransition.metal */,
+				EF471AF16EFC2695BA03B638 /* MTDreamyZoomTransition.metal */,
+				A0F855502679308A2B4DA756 /* MTFadeColorTransition.metal */,
+				B2ADA42F5E90B9CD0D6C4DDA /* MTFadegrayscaleTransition.metal */,
+				9C83B9989B2CA8E74378F2E0 /* MTFadeInWipeLeftTransition.metal */,
+				BC5292EFDD780E34792C1D94 /* MTFadeInWipeUpTransition.metal */,
+				6E75B1BFE976A96949726572 /* MTFadeTransition.metal */,
+				65AB67BBA8185333FD5E018B /* MTGlitchDisplaceTransition.metal */,
+				F001E4819C8E44312F97D3C4 /* MTGlitchMemoriesTransition.metal */,
+				7179413D027346B13CE1B086 /* MTGridFlipTransition.metal */,
+				C1BFA0518C0B593E1FC9052C /* MTHeartTransition.metal */,
+				AACFB560F0A167FB810BA9F2 /* MTHexagonalizeTransition.metal */,
+				20B8E61EB8000F31C2033EA4 /* MTInvertedPageCurlTransition.metal */,
+				46D0B697BB0C9E4468F08433 /* MTIShaderLib.h */,
+				71A4AA96D6F81235A11F7A46 /* MTLinearBlurTransition.metal */,
+				9870A911E270F54DAD2DB96D /* MTMosaicTransition.metal */,
+				159D6386C0D18CAB31A4CF7D /* MTMultiplyBlendTransition.metal */,
+				285036050CF9787D995ECCF7 /* MTPerlinTransition.metal */,
+				596A26E0033ADAB9BEB39D88 /* MTRadialTransition.metal */,
+				CABC466A82E41595CFB56789 /* MTRandomSquaresTransition.metal */,
+				A2AA9DE1B94A7688BB1400CD /* MTRippleTransition.metal */,
+				037342EF813AD54007937356 /* MTRotateScaleFadeTransition.metal */,
+				6F290FAF63253A4892182D81 /* MTSimpleZoomTransition.metal */,
+				2524D15D806A8C88671456E1 /* MTSquaresWireTransition.metal */,
+				E525BF99079094BD2B3569A2 /* MTSqueezeTransition.metal */,
+				F190B50E2285A2DE28D5890C /* MTSwapTransition.metal */,
+				ADA19A357E7C194E4F3B62E5 /* MTSwirlTransition.metal */,
+				F836E05A1641DE96B147B57A /* MTTransitionLib.h */,
+				9B5B96E0BFE7DE06BB278F91 /* MTWaterDropTransition.metal */,
+				E004190F0543B7C9405C15DA /* MTWindowBlindsTransition.metal */,
+				96A148C5A0645CA556DFEE40 /* MTWindowSliceTransition.metal */,
+				8CDB83A39B26718DA155A244 /* MTWindTransition.metal */,
+				F1758E63A2686998FEB2D551 /* MTWipeDownTransition.metal */,
+				C8EBBB4CD14CC4FA7ACA5612 /* MTWipeLeftTransition.metal */,
+				EE46DE616647E566A2A4DF64 /* MTWipeRightTransition.metal */,
+				DA0D4A4169E73635AD63A3E9 /* MTWipeUpTransition.metal */,
+				DF5E049E74630FAE9FABA1C9 /* MTZoomInCirclesTransition.metal */,
+			);
+			path = Shaders;
+			sourceTree = "<group>";
+		};
+		650E5C4F51C4F25042A377ED /* Editors */ = {
+			isa = PBXGroup;
+			children = (
+				2BBC6019AEF53D0EFF99D567 /* PearlAudioEditorView.swift */,
+				6C8D59D9A14236236A6F6499 /* PearlEditorControls.swift */,
+				AF471F1301B3A4B932B85B76 /* PearlLivePhotoEditor.swift */,
+				57E86EFFEFABB5EE0F823155 /* PearlMotionPanel.swift */,
+				2FC405BB044601138ED0DA1B /* PearlProjectTimeline.swift */,
+				C464E4A1F62BD0E55D677622 /* PearlStudioSection.swift */,
+				93353A3D629A6FA2C10522E1 /* PearlTimelineViews.swift */,
+				8F3E98279FB883BE25D84BE3 /* PearlTransitionPanel.swift */,
+				A03B6D1F4D66643E984104FB /* PearlVideoEditorView.swift */,
+			);
+			path = Editors;
+			sourceTree = "<group>";
+		};
+		66222E2C8951B1D19AF91F13 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				543543DB59E09BC3D5FB5B08 /* Mono.app */,
+				548FEC03633A2F39101ABAD1 /* MonoBroadcast.appex */,
+				869644C8A17A3B14FFD41B74 /* MonoControls.appex */,
+				30E2096F1167C38C74CC7897 /* MonoTests.xctest */,
+				EBE4907B834E0D80F79C3C78 /* MonoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F3A680D8B984F33F6FCF0A8 /* MonoBroadcast */ = {
+			isa = PBXGroup;
+			children = (
+				8E81FCF4D3D2D7C5673839DD /* Info.plist */,
+				5B01B025F7E9795486100D6D /* MonoBroadcast.entitlements */,
+				2A7CAF6701E13D863850E625 /* PrivacyInfo.xcprivacy */,
+				9AABF84EF1D08EBF26CCB24C /* SampleHandler.swift */,
+			);
+			path = MonoBroadcast;
+			sourceTree = "<group>";
+		};
+		7C1F2C8575F8C5D091F5FEC1 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				05A3A3C47B0A772130E43611 /* AudioEditor.swift */,
+				FD053A8ED655771DFACFD3E6 /* AudioRecordingService.swift */,
+				C24F0E5625256FB01A19D6A4 /* CaptureEnhancements.swift */,
+				49179213C87BA18C6D4230A0 /* EditingDeskFeatures.swift */,
+				94F3C0696107391589F744FA /* LivePhotoMaker.swift */,
+				886FED31A88AC2C3EAB5B075 /* MediaTranscoder.swift */,
+				4B4AD4E1F314A61C45CEBE59 /* PermissionCenter.swift */,
+				63C3D291B52B4153AEEE727F /* PhotoLibraryWriter.swift */,
+				7BCAC0D8244840D4792CE69B /* RecordingLibrary.swift */,
+				F1F6583F92BE1B6DA27A5EAA /* ThumbnailLoader.swift */,
+				21B2AEE6B249D2808BB0E318 /* TranscodeQueue.swift */,
+				7D97DC176110F57774E7B6E6 /* VideoEditor.swift */,
+				449FF4BE1BCDBB59929DB653 /* VideoProjectStore.swift */,
+				2D85749BA66A45621A470264 /* Transitions */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		83CB7E5E2AD36E4E42D8A420 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3673A9031BEE634DBD2D7CF9 /* LegalDocument.swift */,
+				76AAE6314F8EF75CDFC0D94D /* Recording.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8FE6E5751EAE22A10E7E6D1E /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				1399DB008F501423ACABBA0C /* PearlMediaModels.swift */,
+				D7AE6D6E7385916189F6CFE1 /* PearlMediaViews.swift */,
+				167118563CF5AFFB1FADF3A2 /* PearlTranscodeView.swift */,
+			);
+			path = Media;
+			sourceTree = "<group>";
+		};
+		A805CA8F0E686372A9B17A89 /* MonoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				96C0FA3FC3D54A6F354844BD /* PearlInterfaceTests.swift */,
+			);
+			path = MonoUITests;
+			sourceTree = "<group>";
+		};
+		B2F7C73F2024A5D8BB70F8A2 /* MonoTests */ = {
+			isa = PBXGroup;
+			children = (
+				F691EC19DE06E6FE3BA4CF9C /* EditingDeskTests.swift */,
+				0E76870A269B5DCEBA8EC922 /* MediaConversionTests.swift */,
+				2ED5B6F739FEA261236FE128 /* ProEditingTests.swift */,
+			);
+			path = MonoTests;
+			sourceTree = "<group>";
+		};
+		B7E48387718F221DCA4A619F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				19CF0B05C947F0B127437E19 /* AppIntents.framework */,
+				CAE88AA652EAE4CBECE44862 /* Speech.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF0C97EB5A07BF277AC8CCA9 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				3D6314239CBCB0A417CF37E8 /* ScreenRecordingConfiguration.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		D94D8AB5AD2152010EC4C3E1 /* Capture */ = {
+			isa = PBXGroup;
+			children = (
+				44B994DF86E83FD5C903B3E0 /* PearlAudioRecorderView.swift */,
+				96AECBAF595F97146B9D0B52 /* PearlCaptureView.swift */,
+			);
+			path = Capture;
+			sourceTree = "<group>";
+		};
+		F00EAEE3DAE248BABAAA2CFA /* Mono */ = {
+			isa = PBXGroup;
+			children = (
+				9ACBF1F36C64B4D83DCF235A /* Info.plist */,
+				6F2E1E9639B97EB2499509E2 /* Mono.entitlements */,
+				279C11708B9E756E365DDF34 /* MonoApp.swift */,
+				83CB7E5E2AD36E4E42D8A420 /* Models */,
+				49DB86B334A6C9226E934BCE /* PearlUI */,
+				381AE4C19D7C7CE75DF03ED5 /* Resources */,
+				7C1F2C8575F8C5D091F5FEC1 /* Services */,
+			);
+			path = Mono;
+			sourceTree = "<group>";
+		};
+		F99E4514F314ACBFD0B934DD /* Platform */ = {
+			isa = PBXGroup;
+			children = (
+				4932AE67A6889647146F2785 /* PearlBroadcastPicker.swift */,
+				C5E2925000292F395803E66B /* PearlFileExporter.swift */,
+			);
+			path = Platform;
+			sourceTree = "<group>";
+		};
+		FCFC8080B18AE1E2B2CD34BB /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				E7BA14BC91A87032E19EDBF7 /* PearlSettingsView.swift */,
+				7387E9C58A512C83E3B8CDDD /* PearlUtilityViews.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5433A8864A0592A2361CA4A5 /* MonoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C63D141F778B32CBAAB2F925 /* Build configuration list for PBXNativeTarget "MonoTests" */;
+			buildPhases = (
+				EC281B857E44623A009DF726 /* Sources */,
+				6ACE4858A9247B2EE71256BC /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8CBC7A7AC993B10210E9D8FD /* PBXTargetDependency */,
+			);
+			name = MonoTests;
+			packageProductDependencies = (
+				510BD7A17575B8682C060485 /* FFmpegSwiftSDK */,
+			);
+			productName = MonoTests;
+			productReference = 30E2096F1167C38C74CC7897 /* MonoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		59DE0F6BF2815D14AE44E7A8 /* Mono */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F30B6DCE910EC1827DF9F3F /* Build configuration list for PBXNativeTarget "Mono" */;
+			buildPhases = (
+				BD64D2FD84084CE13CEA7EEC /* Sources */,
+				EF70FB401C22AB047F1B8D74 /* Resources */,
+				75FCDE45169A90C9D6C473E5 /* Frameworks */,
+				2D099ADEC5FB44B2BE22CED0 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79C09175E473B68B4BC8CF7F /* PBXTargetDependency */,
+				2E23020F7741CFD8F0B38D05 /* PBXTargetDependency */,
+			);
+			name = Mono;
+			packageProductDependencies = (
+				8C665FA5B5CD60488B32DB4B /* FFmpegSwiftSDK */,
+			);
+			productName = Mono;
+			productReference = 543543DB59E09BC3D5FB5B08 /* Mono.app */;
+			productType = "com.apple.product-type.application";
+		};
+		900C4E5462E78FEED3CB3CAD /* MonoBroadcast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09032E95F5B249D500A31E9F /* Build configuration list for PBXNativeTarget "MonoBroadcast" */;
+			buildPhases = (
+				F60D0D394AF81360598C2F08 /* Sources */,
+				D02B4049C07A96B11F49082E /* Resources */,
+				0EAB0CA733A6912047527EF0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MonoBroadcast;
+			packageProductDependencies = (
+			);
+			productName = MonoBroadcast;
+			productReference = 548FEC03633A2F39101ABAD1 /* MonoBroadcast.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		CDF59461E31CA72E717F86BA /* MonoControls */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 466C6D180F8BB2DA882817F9 /* Build configuration list for PBXNativeTarget "MonoControls" */;
+			buildPhases = (
+				7D585122E68EC01DD1125608 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MonoControls;
+			packageProductDependencies = (
+			);
+			productName = MonoControls;
+			productReference = 869644C8A17A3B14FFD41B74 /* MonoControls.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		D1F021AD43064B0A0A4E5704 /* MonoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D56453FF95E30A6040DF7F6F /* Build configuration list for PBXNativeTarget "MonoUITests" */;
+			buildPhases = (
+				A2F2904E7BAEF1CA1320AADF /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				500D14465079DE138307B083 /* PBXTargetDependency */,
+			);
+			name = MonoUITests;
+			packageProductDependencies = (
+			);
+			productName = MonoUITests;
+			productReference = EBE4907B834E0D80F79C3C78 /* MonoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50C773D53788D7B9E5175DC7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					5433A8864A0592A2361CA4A5 = {
+						DevelopmentTeam = 7VJKFX4HF8;
+						ProvisioningStyle = Automatic;
+					};
+					59DE0F6BF2815D14AE44E7A8 = {
+						DevelopmentTeam = 7VJKFX4HF8;
+						ProvisioningStyle = Automatic;
+					};
+					900C4E5462E78FEED3CB3CAD = {
+						DevelopmentTeam = 7VJKFX4HF8;
+						ProvisioningStyle = Automatic;
+					};
+					CDF59461E31CA72E717F86BA = {
+						DevelopmentTeam = 7VJKFX4HF8;
+						ProvisioningStyle = Automatic;
+					};
+					D1F021AD43064B0A0A4E5704 = {
+						DevelopmentTeam = 7VJKFX4HF8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 59DE0F6BF2815D14AE44E7A8;
+					};
+				};
+			};
+			buildConfigurationList = 181B4F43DB8D5D82D195AA4E /* Build configuration list for PBXProject "Mono" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 17A8E6F4A17EA03CE54FC398;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				B79D3CE361260581DFECD786 /* XCLocalSwiftPackageReference "Packages/FFmpegSwiftSDK" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 66222E2C8951B1D19AF91F13 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				59DE0F6BF2815D14AE44E7A8 /* Mono */,
+				900C4E5462E78FEED3CB3CAD /* MonoBroadcast */,
+				CDF59461E31CA72E717F86BA /* MonoControls */,
+				5433A8864A0592A2361CA4A5 /* MonoTests */,
+				D1F021AD43064B0A0A4E5704 /* MonoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D02B4049C07A96B11F49082E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BAEEA180F1E129F88027448 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF70FB401C22AB047F1B8D74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80D6B691F305FB8669790D85 /* Assets.xcassets in Resources */,
+				452C6AFD6BB47FEF3A04E5DD /* MTTransitions-LICENSE.txt in Resources */,
+				91064BE23F8B82D28939384F /* PrivacyInfo.xcprivacy in Resources */,
+				9F6024FB2CAADA4CF12E2BF2 /* README.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D585122E68EC01DD1125608 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C08F7F894F27B41CB53B56E0 /* MonoControls.swift in Sources */,
+				29B09BD0DD937CF5B4A52924 /* PearlGlyph.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2F2904E7BAEF1CA1320AADF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E09340030A301943A94AE069 /* PearlInterfaceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD64D2FD84084CE13CEA7EEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0EEB9994BEE6E9112CB5D87 /* AudioEditor.swift in Sources */,
+				FF714E41FBB2ADE4680B1648 /* AudioRecordingService.swift in Sources */,
+				7D40B0DB18525F9A011C3A12 /* CaptureEnhancements.swift in Sources */,
+				006A89E871F66C455D3E246D /* ClipMotion.swift in Sources */,
+				29CAAB9B685C5DC08CC4BA96 /* EditingDeskFeatures.swift in Sources */,
+				DEB00CF189C7C4CFA9BA2AF9 /* EditorVideoCompositor.swift in Sources */,
+				E8D5ACE9FFE919F0E194BF34 /* LegalDocument.swift in Sources */,
+				9174127B3D7C28AFDDFF1C0D /* LivePhotoMaker.swift in Sources */,
+				96FBBD23A4033F557856D5F8 /* MTAngularTransition.metal in Sources */,
+				011B7D2F1AE798F76943F1D7 /* MTBookFlipTransition.metal in Sources */,
+				CFC7BBB6CA9D7F033C4E204A /* MTBounceTransition.metal in Sources */,
+				DA9BD535CF3D33A53B8E9B8A /* MTBowTieHorizontalTransition.metal in Sources */,
+				0BBA44317CF06970EB40D996 /* MTBowTieVerticalTransition.metal in Sources */,
+				C01607927ADAE4E10F3CBB53 /* MTBurnTransition.metal in Sources */,
+				6CA304A1E3C4F5646CF0342E /* MTCircleOpenTransition.metal in Sources */,
+				5C608CC4B05E2E6D7A344276 /* MTColorPhaseTransition.metal in Sources */,
+				3C3EB77E3F5E1DA624E332B0 /* MTCrossWarpTransition.metal in Sources */,
+				5720AA841E6F3ABB02814F93 /* MTCrossZoomTransition.metal in Sources */,
+				C1E59744CBB8A93D80544D0D /* MTCubeTransition.metal in Sources */,
+				45292331B88354A5D7E95015 /* MTDirectionalEasingTransition.metal in Sources */,
+				71A28EB9E58DF6D1F4B631EB /* MTDirectionalTransition.metal in Sources */,
+				7E87A02DB2375FBF13B7A0EB /* MTDirectionalWarpTransition.metal in Sources */,
+				BBB1BE21C4369BD181A338DB /* MTDirectionalWipeTransition.metal in Sources */,
+				2DF93537821E1384A381E385 /* MTDoorwayTransition.metal in Sources */,
+				07338D8E660F7689041A667F /* MTDreamyTransition.metal in Sources */,
+				836048FF91AE655AD9B8A00A /* MTDreamyZoomTransition.metal in Sources */,
+				ECA49DAB39428F9C5F7FAC95 /* MTFadeColorTransition.metal in Sources */,
+				6729A1EE0786D9CCC4A94243 /* MTFadeInWipeLeftTransition.metal in Sources */,
+				994A3E00D87A4E44C67F8FB7 /* MTFadeInWipeUpTransition.metal in Sources */,
+				29CE226F89C413881A3826D1 /* MTFadeTransition.metal in Sources */,
+				8FC0BCAF7603CA1C7CF6B5FA /* MTFadegrayscaleTransition.metal in Sources */,
+				00C239C595BA2BA3C9120709 /* MTGlitchDisplaceTransition.metal in Sources */,
+				09574802153441572D2D6D89 /* MTGlitchMemoriesTransition.metal in Sources */,
+				37844617FE49BF91E0CEBED1 /* MTGridFlipTransition.metal in Sources */,
+				10DA239F8669CA3F30514EA1 /* MTHeartTransition.metal in Sources */,
+				74475A856FADE1A773FEB732 /* MTHexagonalizeTransition.metal in Sources */,
+				80EEF0FD72DD62303BFB2F10 /* MTInvertedPageCurlTransition.metal in Sources */,
+				F49ED507911815162488895F /* MTLinearBlurTransition.metal in Sources */,
+				15539F9914C39312638E8BE1 /* MTMosaicTransition.metal in Sources */,
+				E45B4B3D59ABFECD4492A2E1 /* MTMultiplyBlendTransition.metal in Sources */,
+				740B95CC5E9D5B0CB4B57D41 /* MTPerlinTransition.metal in Sources */,
+				F77B39FD036EF8F3FD84DAFD /* MTRadialTransition.metal in Sources */,
+				AF90DBFCD7A59192F8777713 /* MTRandomSquaresTransition.metal in Sources */,
+				13808A79A818E50BEDDFCD9B /* MTRippleTransition.metal in Sources */,
+				535688686AA5BDF1C99FE0B2 /* MTRotateScaleFadeTransition.metal in Sources */,
+				2F1039119E053089195B6DA8 /* MTSimpleZoomTransition.metal in Sources */,
+				ED8CE321034F9916CA2386ED /* MTSquaresWireTransition.metal in Sources */,
+				3A6D22EFC6E53E1C027856DC /* MTSqueezeTransition.metal in Sources */,
+				3819090B12656D4B184CBEF2 /* MTSwapTransition.metal in Sources */,
+				9FCA98BB8C76A956E9BFB9B2 /* MTSwirlTransition.metal in Sources */,
+				32502BA0AEF54C6D7E642693 /* MTWaterDropTransition.metal in Sources */,
+				7A886EBF6A6E51AA5C2B494B /* MTWindTransition.metal in Sources */,
+				DD6CF0841210E6E4E71B2CAA /* MTWindowBlindsTransition.metal in Sources */,
+				060C29C1ED5D3D7CDCC0172E /* MTWindowSliceTransition.metal in Sources */,
+				6577BEF49BDC1371F964AECF /* MTWipeDownTransition.metal in Sources */,
+				AE75392D2B3BB01AA4671978 /* MTWipeLeftTransition.metal in Sources */,
+				6486D067D7961C9994C8045A /* MTWipeRightTransition.metal in Sources */,
+				7A302247D2A5072F8ECC1670 /* MTWipeUpTransition.metal in Sources */,
+				2E590FBE671E1F519CF92438 /* MTZoomInCirclesTransition.metal in Sources */,
+				25F9E81EDADE39CA92B83F1E /* MediaTranscoder.swift in Sources */,
+				3476F53A331DF072CE1D1FB6 /* MonoApp.swift in Sources */,
+				D557B4BBBFCA368505B215C2 /* MonoTransitionVertex.metal in Sources */,
+				9A66B405DFE4947CD17336DB /* PearlAudioEditorView.swift in Sources */,
+				8C7CA03737E3604A15613F9F /* PearlAudioRecorderView.swift in Sources */,
+				A75E448656390E36BDE0C5A8 /* PearlBroadcastPicker.swift in Sources */,
+				A2F272795F87CDD15201D64E /* PearlCaptureView.swift in Sources */,
+				81FB2E051DDBC3619364EF0D /* PearlEditorControls.swift in Sources */,
+				42103E626C2B26EEE03D3BBB /* PearlFileExporter.swift in Sources */,
+				C5F0860729A31A312120EDF7 /* PearlGlyph.swift in Sources */,
+				B029D279FCDFF9F8E0303323 /* PearlLivePhotoEditor.swift in Sources */,
+				BB445DF112BEE6C2F15E3309 /* PearlMediaModels.swift in Sources */,
+				34C9ED5FD3CD449F15956FAB /* PearlMediaViews.swift in Sources */,
+				DED26C9A9276C925366CC67B /* PearlMotionPanel.swift in Sources */,
+				EFEBB602A908D57B738C3FF6 /* PearlProjectTimeline.swift in Sources */,
+				6F9D88678B2C02657A98AE23 /* PearlRootView.swift in Sources */,
+				DCDE0DAC8A774700D362DDBF /* PearlSettingsView.swift in Sources */,
+				055F8E4A7B35FCE495289887 /* PearlStudioSection.swift in Sources */,
+				336727145128446E75861DF6 /* PearlTheme.swift in Sources */,
+				78F7763343200A437C97617E /* PearlTimelineViews.swift in Sources */,
+				EAF60E3E8F9269826CCF211B /* PearlTranscodeView.swift in Sources */,
+				60DD0498FBC9483FAE1FBA11 /* PearlTransitionPanel.swift in Sources */,
+				631C03BC0D1851F790A3C89C /* PearlUtilityViews.swift in Sources */,
+				AB300C29833D71D3DBB75030 /* PearlVideoEditorView.swift in Sources */,
+				74C838611747FF27DC53174B /* PermissionCenter.swift in Sources */,
+				258C942E752523F6AAE60CD3 /* PhotoLibraryWriter.swift in Sources */,
+				4AE9AE3939E3CF368598424F /* Recording.swift in Sources */,
+				0B59FBBF7289B7EB0E186120 /* RecordingLibrary.swift in Sources */,
+				7338DD7D4C304224EAD33623 /* ScreenRecordingConfiguration.swift in Sources */,
+				DF86975D36D1D8536D9E5202 /* ThumbnailLoader.swift in Sources */,
+				9C8437483395F7BA09519C96 /* TranscodeQueue.swift in Sources */,
+				8149CA4EBEA89854887017BC /* VideoEditor.swift in Sources */,
+				034F1F8F7C1E377C2B71F9DB /* VideoProjectStore.swift in Sources */,
+				0DE3014759CEA9F0C3FB841B /* VideoTransition.swift in Sources */,
+				E75E5ED8FD64673C11F58A90 /* VideoTransitionRenderer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC281B857E44623A009DF726 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50CBDDA407EA1929A2641BCB /* EditingDeskTests.swift in Sources */,
+				29ABE3DA45A2DA8B665BB6CA /* MediaConversionTests.swift in Sources */,
+				61C04708A3FAF9FAF9747F5E /* ProEditingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F60D0D394AF81360598C2F08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36E94D5BBA3F9A30BA920540 /* SampleHandler.swift in Sources */,
+				24BEA0808E783FF84E51F044 /* ScreenRecordingConfiguration.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2E23020F7741CFD8F0B38D05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDF59461E31CA72E717F86BA /* MonoControls */;
+			targetProxy = CC147E547D8D13D0AACAE8E1 /* PBXContainerItemProxy */;
+		};
+		500D14465079DE138307B083 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 59DE0F6BF2815D14AE44E7A8 /* Mono */;
+			targetProxy = 459445AFEDE4EE54DE280BDD /* PBXContainerItemProxy */;
+		};
+		79C09175E473B68B4BC8CF7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 900C4E5462E78FEED3CB3CAD /* MonoBroadcast */;
+			targetProxy = B1FDD0DD30E156595EA80091 /* PBXContainerItemProxy */;
+		};
+		8CBC7A7AC993B10210E9D8FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 59DE0F6BF2815D14AE44E7A8 /* Mono */;
+			targetProxy = A44EC2D8070FC41219C51531 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0D2C0A563A0465FF25E09685 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 34;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 7VJKFX4HF8;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LM_FILTER_WARNINGS = YES;
+				MARKETING_VERSION = 1.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		1257B6F15423D39E54AB0F5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = MonoControls/MonoControls.entitlements;
+				INFOPLIST_FILE = MonoControls/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.linchengbo.mono.screenaudio.controls;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		17C44F08DAA0C3CB780049E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGNING_ALLOWED = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.linchengbo.mono.screenaudio.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MonoFrame.app/MonoFrame";
+			};
+			name = Release;
+		};
+		2B63FD7A1F79FD25B071DA0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Mono/Mono.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Mono/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.linchengbo.mono.screenaudio;
+				PRODUCT_NAME = MonoFrame;
+				SDKROOT = iphoneos;
+				SWIFT_SUPPRESS_WARNINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		48012723C6B44893271740B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Mono/Mono.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Mono/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.linchengbo.mono.screenaudio;
+				PRODUCT_NAME = MonoFrame;
+				SDKROOT = iphoneos;
+				SWIFT_SUPPRESS_WARNINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		55C60F032D8761CF15801087 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGNING_ALLOWED = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.linchengbo.mono.screenaudio.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MonoFrame.app/MonoFrame";
+			};
+			name = Debug;
+		};
+		6DCF73A1B8C18EEA2BF32065 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = MonoBroadcast/MonoBroadcast.entitlements;
+				INFOPLIST_FILE = MonoBroadcast/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.linchengbo.mono.screenaudio.broadcast;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		955262601812CC624B5CC033 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 34;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 7VJKFX4HF8;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LM_FILTER_WARNINGS = YES;
+				MARKETING_VERSION = 1.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AC9E3F73237AA3C420DC1241 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = MonoBroadcast/MonoBroadcast.entitlements;
+				INFOPLIST_FILE = MonoBroadcast/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.linchengbo.mono.screenaudio.broadcast;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B38874AAF9D510834E5F11D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGNING_ALLOWED = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.linchengbo.mono.screenaudio.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Mono;
+			};
+			name = Debug;
+		};
+		DF002B60F4311EF6B45ED98A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = MonoControls/MonoControls.entitlements;
+				INFOPLIST_FILE = MonoControls/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.linchengbo.mono.screenaudio.controls;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F312A443C8BA0AEE1BA85570 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGNING_ALLOWED = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.linchengbo.mono.screenaudio.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Mono;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09032E95F5B249D500A31E9F /* Build configuration list for PBXNativeTarget "MonoBroadcast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC9E3F73237AA3C420DC1241 /* Debug */,
+				6DCF73A1B8C18EEA2BF32065 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		181B4F43DB8D5D82D195AA4E /* Build configuration list for PBXProject "Mono" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				955262601812CC624B5CC033 /* Debug */,
+				0D2C0A563A0465FF25E09685 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		466C6D180F8BB2DA882817F9 /* Build configuration list for PBXNativeTarget "MonoControls" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF002B60F4311EF6B45ED98A /* Debug */,
+				1257B6F15423D39E54AB0F5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9F30B6DCE910EC1827DF9F3F /* Build configuration list for PBXNativeTarget "Mono" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48012723C6B44893271740B3 /* Debug */,
+				2B63FD7A1F79FD25B071DA0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C63D141F778B32CBAAB2F925 /* Build configuration list for PBXNativeTarget "MonoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55C60F032D8761CF15801087 /* Debug */,
+				17C44F08DAA0C3CB780049E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D56453FF95E30A6040DF7F6F /* Build configuration list for PBXNativeTarget "MonoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B38874AAF9D510834E5F11D1 /* Debug */,
+				F312A443C8BA0AEE1BA85570 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		B79D3CE361260581DFECD786 /* XCLocalSwiftPackageReference "Packages/FFmpegSwiftSDK" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/FFmpegSwiftSDK;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		510BD7A17575B8682C060485 /* FFmpegSwiftSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FFmpegSwiftSDK;
+		};
+		8C665FA5B5CD60488B32DB4B /* FFmpegSwiftSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FFmpegSwiftSDK;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 50C773D53788D7B9E5175DC7 /* Project object */;
+}

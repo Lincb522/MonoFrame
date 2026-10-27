@@ -1,0 +1,17 @@
+FFmpeg 8.0 full iOS static build
+decoders=517
+encoders=185
+demuxers=356
+muxers=182
+filters=441
+protocols=37
+bitstream_filters=48
+input_devices=2
+output_devices=0
+videotoolbox=enabled
+audiotoolbox=enabled
+avfoundation=enabled
+securetransport=enabled
+libmp3lame=enabled
+lzma=disabled (not exposed by the public iOS SDK headers)
+license=LGPL-2.1-or-later

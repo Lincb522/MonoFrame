@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleDisplayName</key>
+	<string>MonoFrame</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>MonoFrame</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(MARKETING_VERSION)</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>com.linchengbo.mono.screenaudio</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>mono</string>
+			</array>
+		</dict>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
+	<key>NSCameraUsageDescription</key>
+	<string>MonoFrame 的媒体处理组件支持相机视频输入，仅在你主动使用相关功能时访问相机。</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>MonoFrame 需要麦克风权限以录制音频。</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>MonoFrame 需要照片权限以导出视频与 Live Photo。</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>MonoFrame 需要完全访问权限以将视频与 Live Photo 写入照片图库。</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>MonoFrame 需要语音识别权限以生成实时悬浮字幕与字幕文件。</string>
+	<key>UILaunchScreen</key>
+	<dict/>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+</dict>
+</plist>
