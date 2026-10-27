@@ -8,8 +8,6 @@ iOS 26 SwiftUI 录屏、录音、编辑、转码与 Live Photo 工具。
 2. 连接 iPhone 后直接运行 `Mono` Scheme。
 3. 使用真机测试全屏广播录制、麦克风和照片导出。
 
-开发团队已配置为 `7VJKFX4HF8`。发布名称为 `MonoFrame`，主 App 使用 `com.linchengbo.mono.screenaudio`，并与扩展共用 App Group `group.com.linchengbo.mono.screenaudio`，使用 Xcode 自动签名。
-
 ## 功能
 
 - iOS Control Widget 控制中心录屏入口
